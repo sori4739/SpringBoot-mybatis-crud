@@ -8,13 +8,13 @@
                 </div><!-- .page-header -->
             </div><!-- .col -->
         </div><!-- .row -->
-
+n
         <div class="container">
             <div class="row">
                 <div class="offset-lg-9 col-lg-3">
-                    <a href="#">
+                    <a href="/user/profileForm">
                         <div class="yt-subscribe">
-                            <img src="${sessionScope.user.userProfile}" alt="Youtube Subscribe">
+                            <img src="${sessionScope.user.userProfile}" style="width: 250px; height: 250px; border-radius:50% " alt="Youtube Subscribe">
                             <h3>Subscribe</h3>
                             <p>To my Youtube Channel</p>
                              <a href="/board/updateForm/${board.id}"><button class="btn btn-primary">Update</button></a>
